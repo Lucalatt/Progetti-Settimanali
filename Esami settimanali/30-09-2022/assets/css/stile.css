@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a :visited {
+    color: #c8e7f0;
+    text-decoration: none;
+}
+
+/* ------Header-------- */
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+header img {
+    width: 40%;
+}
+
+/* ------Main-------- */
+
+main div:first-child {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding: 60px 30px;
+    margin-bottom: 40px;
+}
+
+main div:first-child p {
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+
+main div:first-child a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 15px 35px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+/* ---------Section------------ */
+
+section p {
+    padding: 0 50px 25px 50px;
+    margin-bottom: 30px;
+}
+
+section img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+/* --------Statement----------*/
+
+main div:last-child {
+    background-color: #e22d0e;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+
+main div:last-child h1 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+blockquote {
+    padding: 25px;
+    font-style: italic;
+    font-weight: thin;
+}
+
+main div:last-child p {
+    font-size: 1.3em;
+}
+
+main div:last-child h4 {
+    font-size: smaller;
+}
+
+/* -------Aside-------- */
+
+aside {
+    margin-bottom: 60px;
+}
+
+aside div {
+    margin: 25px auto;
+    border: solid #dee1e3 2px;
+    border-radius: 0 0 5px 5px;
+    width: 95%;
+}
+
+aside img {
+    width: 100%;  
+}
+
+aside p {
+    padding: 0 20px 30px 20px;
+}
+
+/* -------Footer-------- */
+
+footer {
+    background-color: #25a2c3;
+}
+
+footer h1 {
+    color: white;
+    padding: 40px 0 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #c8e7f0;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer i {
+    color: white;
+    margin: 4px;
+}
+
+footer p {
+    color: #c8e7f0;
+    border-top: solid 1px;
+    width: fit-content;
+    margin: 25px auto 0 auto;
+    padding: 30px 0 70px 0;
+    font-size: small;
+}
