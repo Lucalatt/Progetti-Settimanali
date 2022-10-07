@@ -1,0 +1,297 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+a,
+i {
+    color: #e42424;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px;
+}
+
+
+header div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#topMenu {
+    color: #e42424;
+    text-align: end;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul li {
+    display: block;
+    height: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+ul li:last-child {
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(#7EB8D9, #38357A);
+
+}
+
+label:before {
+    content: "";
+    transition: all .5s;
+    position: relative;
+
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+    position: absolute;
+}
+
+#collapse:checked~li {
+    display: none;
+
+}
+
+#collapse:checked+label:before {
+    position: absolute;
+
+}
+
+/* MAIN */
+
+#firstBox {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#firstBox p:last-child {
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to right, #7EB8D9, #38357A);
+    width: fit-content;
+}
+
+/* SECTION */
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 1.8em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+section div {
+    margin: 0 30px 20px 30px;
+}
+
+#mapMarker,
+#comments,
+#consulting {
+    color: #e42424;
+    font-size: 40px;
+}
+
+.textUs {
+    background-color: #0B0631;
+    color: white;
+    margin: 0;
+    padding: 80px 20px;
+}
+
+.textUs h2 {
+    padding: 0 30px;
+}
+
+.textUs p {
+    margin-bottom: 30px;
+}
+
+.textUs a {
+    color: white;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right,#7EB8D9, #38357A);
+    width: fit-content;
+}
+
+section div img {
+    width: 90%;
+}
+
+#happy,
+#cool,
+#suspect {
+    color: #e42424;
+    font-size: 30px;
+}
+
+main section:last-child h3 {
+    display: inline-block;
+    margin-bottom: 0px;
+
+}
+
+main section:last-child p {
+    margin-bottom: 20px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #EEEEEE;
+    padding: 0 20px;
+}
+
+footer h4 {
+    font-size: 1.4em;
+    padding: 30px 0;
+    line-height: 1.2;
+    
+}
+
+footer div {
+    margin: 0 10px;
+}
+
+#facebook,
+#linkedin,
+#instagram {
+    color: #e42424;
+    font-size: 30px;
+}
+
+#eMail {
+    width: 400px;
+    height: 40px;
+    margin: 0 auto 0 0;
+    display: block;
+    padding: 0;
+}
+
+#vabene {
+    color: white;
+    width: 404px;
+    height: 40px;
+    margin: 0 auto 0 0 ;
+    
+    font-size: large;
+    background-image: linear-gradient(to right,#7EB8D9, #38357A);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer div:last-child {
+    padding-bottom: 40px;
+
+}
+
+/*TABLE*/
+
+table {
+    margin: 25px 10px;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+td {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.blue {
+    background-color: #D4DDE6;
+}
+
+
+#email, #text, #nomeCognome {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+#email, #text, #nomeCognome::placeholder {
+    color: rgb(168, 163, 163);
+    font-style: italic;
+    opacity: 5;
+    padding: 5px;
+}
+
+#text {
+    height: 80px;
+}
+
+.contatti {
+    display: flex;
+    align-content: center;
+}
+
+.sendMessage {
+    display: flex;
+    color: white;
+    background-image: linear-gradient(to right,#7EB8D9, #38357A);
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/* RESPONSIVE */
