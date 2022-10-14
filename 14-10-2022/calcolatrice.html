@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <meta name="description" content="calcolatrice">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main class="calculator">
+        <div class="screen">
+            <div class="brand">
+                <h3>CASIO</h3>
+                <span class="panel"></span>
+            </div>
+            <input type="text" id="display" placeholder="0">
+        </div>
+        <div class="buttons">
+            <div class="firstBtns">
+                <button class="redButton" onclick="cancAll()">AC</button>
+                <button class="redButton" onclick="cancLast()">C</button>
+                <button class="redButton" onclick="perc(total,percentage)">%</button>
+                <button class="redButton" onclick="pow()">^</button>
+                <button class="redButton" onclick="root()">√</button>
+            </div>
+            <div class="secondBtns">
+                <button class="greyButton" onclick="insert('7')">7</button>
+                <button class="greyButton" onclick="insert('8')">8</button>
+                <button class="greyButton" onclick="insert('9')">9</button>
+                <button class="greyButton" onclick="insert('/')">÷</button>
+            </div>
+            <div class="thirdBtns">
+                <button class="greyButton" onclick="insert('4')">4</button>
+                <button class="greyButton" onclick="insert('5')">5</button>
+                <button class="greyButton" onclick="insert('6')">6</button>
+                <button class="greyButton" onclick="insert('*')">X</button>
+            </div>
+            <div class="fourthBtns">
+                <button class="greyButton" onclick="insert('1')">1</button>
+                <button class="greyButton" onclick="insert('2')">2</button>
+                <button class="greyButton" onclick="insert('3')">3</button>
+                <button class="greyButton" onclick="insert('-')">-</button>
+            </div>
+            <div class="fifthBtns">
+                <button class="greyButton" onclick="insert('0')">0</button>
+                <button class="greyButton" onclick="insert('.')">.</button>
+                <button class="greyButton"onclick="equal()">=</button>
+                <button class="greyButton" onclick="insert('+')">+</button>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+

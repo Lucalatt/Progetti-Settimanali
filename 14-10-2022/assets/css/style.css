@@ -1,0 +1,118 @@
+/*general rules*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*body*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*calculator-main*/
+
+.calculator {
+    height: 400px;
+    width: 250px;
+    background-color: rgb(206, 199, 194);
+    border-radius: 10px;
+    transform:rotate3d(.6, -.866, 1, 25deg) rotate(1deg);
+    box-shadow: 5px 5px rgba(0, 0, 0, .5);
+}
+
+/*screen*/
+
+.screen {
+    height: 180px;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*screen elements*/
+
+.brand {
+    margin: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+.panel {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(44, 61, 29);
+    border: solid 4px rgb(53, 54, 53);
+    border-radius: 4px;
+    padding: 0 5px;
+    box-shadow: -1px -1px rgba(0, 0, 0, .5);
+}
+
+#display {
+    height: 100px;
+    width: 220px;
+    align-self: center;
+    text-align: right;
+    font-size: 2em;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(73, 83, 64);
+    border-top: solid 5px rgb(53, 54, 53);
+    border-bottom: solid 5px rgb(53, 54, 53);
+    border-right: solid 25px rgb(53, 54, 53);
+    border-left: solid 25px rgb(53, 54, 53);
+    border-radius: 4px 4px 15px 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+/*buttons*/
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstBtns, 
+.secondBtns, 
+.thirdBtns, 
+.fourthBtns, 
+.fifthBtns   {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.redButton {
+    background-color: rgb(190, 0, 0);
+    color: white;
+    width: 30px;
+    border-radius: 15px;
+    border-color: rgb(190, 0, 0);
+    font-size: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+.greyButton {
+    background-color: rgba(41, 40, 40, 0.897);
+    color: white;
+    width: 45px;
+    height: 35px;
+    border-color: rgba(41, 40, 40, 0.897);
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+
+
+
+
